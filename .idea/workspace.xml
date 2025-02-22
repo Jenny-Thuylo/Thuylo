@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdb91c0-5cd0-4790-9b2b-09d6d943c8fd" name="Changes" comment="add code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/BMICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/CounterProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/LeapYearChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/Temperature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/global/lesson2/Operator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +49,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BMICalculator.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.CounterProgram.executor": "Run",
+    "Application.LeapYearChecker.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Operator.executor": "Run",
     "Application.Output.executor": "Run",
+    "Application.Temperature.executor": "Run",
     "Application.com.cmcglobal.day1.lession2.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -59,20 +69,7 @@
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Output">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmcglobal.day1.lession1.Main" />
-      <module name="DemoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmcglobal.day1.lession1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.global.lesson3.Output" />
       <module name="DemoTest" />
@@ -86,24 +83,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.cmcglobal.day1.lession2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cmcglobal.day1.lession2.Main" />
-      <module name="DemoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cmcglobal.day1.lession2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Output" />
-        <item itemvalue="Application.com.cmcglobal.day1.lession2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740237448621</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add code">
+      <option name="closed" value="true" />
+      <created>1740238496967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740238496967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

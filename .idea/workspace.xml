@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdb91c0-5cd0-4790-9b2b-09d6d943c8fd" name="Changes" comment="add code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/BMICalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/CounterProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/LeapYearChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson2/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson3/ChallengeExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson3/ChallengeExtension2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson3/FizzBuzzVariation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson3/GradeCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/lesson3/GuessTheNumberGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/global/lesson2/Operator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,12 @@
   "keyToString": {
     "Application.BMICalculator.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.ChallengeExtension.executor": "Run",
+    "Application.ChallengeExtension2.executor": "Run",
     "Application.CounterProgram.executor": "Run",
+    "Application.FizzBuzzVariation.executor": "Run",
+    "Application.GradeCalculation.executor": "Run",
+    "Application.GuessTheNumberGame.executor": "Run",
     "Application.LeapYearChecker.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Operator.executor": "Run",
@@ -70,6 +75,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="FizzBuzzVariation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.global.lesson3.FizzBuzzVariation" />
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.global.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.global.lesson3.Output" />
       <module name="DemoTest" />
@@ -85,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzzVariation" />
         <item itemvalue="Application.Output" />
       </list>
     </recent_temporary>
@@ -138,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740238496967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add code">
+      <option name="closed" value="true" />
+      <created>1740240880736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740240880736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

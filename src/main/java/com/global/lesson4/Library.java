@@ -9,7 +9,7 @@ public class Library {
 
     public Library() {
         this.books = new ArrayList<>();
-        this.bookCount = 0;
+//        this.bookCount = 0;
     }
 
     void addABook(Book newBook){

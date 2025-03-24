@@ -19,9 +19,9 @@ public class Library {
         List<Book> booksUpdate = new ArrayList<>();
         for(Book book: this.books) {
             if (!titleBook.equals(book.getTitle())) {
-                book.setAvailable(false);
+                booksUpdate.add(book);
             }
-            booksUpdate.add(book);
+
         }
 //        for (int i = 0; i < this.books.size(); i++) {
 //            Book book = this.books.get(i);

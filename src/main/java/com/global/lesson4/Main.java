@@ -14,32 +14,32 @@ public class Main {
         library.addABook(book2);
         library.addABook(book3);
 
-        book1.displayBookDetails(); // Hien thi detail sach
-        System.out.println("---------------------");
-        book2.displayBookDetails();
-        System.out.println("---------------------");
-        book3.displayBookDetails();
-        System.out.println("---------------------");
-        book4.displayBookDetails();
-
-        System.out.println("All books in the library:");
-        library.displayABook();
-        System.out.println("------------------");
-        library.searchABook("Chị Dậu");
-        System.out.println("------------------");
-
-        System.out.println("Search results:");
-        library.searchABook("Thép đã");
-        System.out.println("------------------");
-
-        library.borrowABook("ISBN-15");
-        library.borrowABook("Công chúa ngủ trong rừng");
-
-        System.out.println("--------------------");
-        library.returnABook("ISBN-15");
-        library.returnABook("Công chúa ngủ trong rừng");
-
-        System.out.println("--------------------");
+//        book1.displayBookDetails(); // Hien thi detail sach
+//        System.out.println("---------------------");
+//        book2.displayBookDetails();
+//        System.out.println("---------------------");
+//        book3.displayBookDetails();
+//        System.out.println("---------------------");
+//        book4.displayBookDetails();
+//
+//        System.out.println("All books in the library:");
+//        library.displayABook();
+//        System.out.println("------------------");
+//        library.searchABook("Chị Dậu");
+//        System.out.println("------------------");
+//
+//        System.out.println("Search results:");
+//        library.searchABook("Thép đã");
+//        System.out.println("------------------");
+//
+//        library.borrowABook("ISBN-15");
+//        library.borrowABook("Công chúa ngủ trong rừng");
+//
+//        System.out.println("--------------------");
+//        library.returnABook("ISBN-15");
+//        library.returnABook("Công chúa ngủ trong rừng");
+//
+//        System.out.println("--------------------");
 
         library.removeABook("Công chúa ngủ trong rừng");
 

@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 //    Verify that products are sorted by default (name A-Z)
 public class SortTest {
     @Test
-    public void verifyDefaultSorting() {
+    public void verifySorting() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com");
 

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdb91c0-5cd0-4790-9b2b-09d6d943c8fd" name="Changes" comment="add code">
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/TestTimeWait1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +72,7 @@
     "Application.Temperature.executor": "Run",
     "Application.TestForloop.executor": "Run",
     "Application.com.cmcglobal.day1.lession2.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "JUnit.CartTest.executor": "Run",
     "JUnit.InventoryTest.executor": "Run",
     "JUnit.LoginSuccessTest.executor": "Run",
@@ -77,10 +81,19 @@
     "JUnit.PasswordIncorrect.PasswordIncorrect.executor": "Run",
     "JUnit.PasswordIncorrect.executor": "Run",
     "JUnit.SortTest.executor": "Run",
+    "JUnit.SortTest.verifySorting.executor": "Run",
     "JUnit.TitleTest.executor": "Run",
     "JUnit.passwordIncorrect.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.LoginPage.executor": "Run",
+    "TestNG.TestTimeWait.executor": "Run",
+    "TestNG.TestTimeWait.explicitWait.executor": "Run",
+    "TestNG.TestTimeWait.implicitWait.executor": "Run",
+    "TestNG.TestTimeWait1.implicitWait.executor": "Run",
     "git-widget-placeholder": "#1 on ltthuy",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/autotest/Thuylo",
@@ -90,58 +103,85 @@
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="FizzBuzzVariation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.global.lesson3.FizzBuzzVariation" />
+  <component name="RunManager" selected="TestNG.TestTimeWait.implicitWait">
+    <configuration name="LoginPage.OpenWeb" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.global.lesson3.*" />
+          <option name="PATTERN" value="com.global.SeleniumMaven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.global.SeleniumMaven" />
+      <option name="MAIN_CLASS_NAME" value="com.global.SeleniumMaven.LoginPage" />
+      <option name="METHOD_NAME" value="OpenWeb" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.global.lesson3.Output" />
+    <configuration name="TestTimeWait" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTimeWait" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTimeWait1.implicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.global.lesson3.*" />
+          <option name="PATTERN" value="com.global.SeleniumMaven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.global.SeleniumMaven" />
+      <option name="MAIN_CLASS_NAME" value="com.global.SeleniumMaven.TestTimeWait1" />
+      <option name="METHOD_NAME" value="implicitWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTimeWait.explicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordIncorrect" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="TestTimeWait" />
+      <option name="METHOD_NAME" value="explicitWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordIncorrect.PasswordIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTimeWait.implicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PasswordIncorrect" />
-      <option name="METHOD_NAME" value="PasswordIncorrect" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="TestTimeWait" />
+      <option name="METHOD_NAME" value="implicitWait" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordIncorrect.PasswordIncorrect" />
-        <item itemvalue="JUnit.PasswordIncorrect" />
-        <item itemvalue="Application.FizzBuzzVariation" />
-        <item itemvalue="Application.Output" />
+        <item itemvalue="TestNG.TestTimeWait.implicitWait" />
+        <item itemvalue="TestNG.LoginPage.OpenWeb" />
+        <item itemvalue="TestNG.TestTimeWait1.implicitWait" />
+        <item itemvalue="TestNG.TestTimeWait.explicitWait" />
+        <item itemvalue="TestNG.TestTimeWait" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +304,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/LoginPage.java</url>
-          <line>28</line>
+          <line>31</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

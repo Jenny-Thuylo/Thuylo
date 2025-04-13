@@ -10,10 +10,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import static java.lang.Thread.sleep;
 
 public class LoginPage {
-    public static void main(String[]args) throws InterruptedException {
-
+    @Test
+    public void OpenWeb() throws InterruptedException {
         WebDriver driver = new ChromeDriver(); // Khởi tạo WebDriver
         // 1. Navigate to saucedemo.com
         // way 1
@@ -25,10 +28,10 @@ public class LoginPage {
         // Sử dụng hàm .to(string url) navigate để chuyển đến 1 trang bất kỳ
         // hoặc sử dụng hàm .back() để điều hướng quay lại trang trước đó
         driver.get("https://www.google.com");
-        Thread.sleep(2000);
+        sleep(2000);
         // Quay lại trang trước đó (Google)
         driver.navigate().to("https://www.saucedemo.com/");
-        Thread.sleep(2000);
+        sleep(2000);
 
         WebElement txtUsername = driver.findElement(By.id("user-name"));
         txtUsername.sendKeys("standard_user");
@@ -37,5 +40,6 @@ public class LoginPage {
         WebElement LoginButton = driver.findElement(By.id("login-button"));
         LoginButton.click();
     }
-
 }
+
+

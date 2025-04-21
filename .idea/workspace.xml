@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfdb91c0-5cd0-4790-9b2b-09d6d943c8fd" name="Changes" comment="add code">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/AddRemoveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/AlertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/DisappearingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/DynamicControls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/DynamicLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/InventoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginSuccessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/LoginSuccessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MessageErrorCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/MessageErrorCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NavigateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/NavigateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordIncorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/PasswordIncorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTimeWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/TestTimeWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/TitleTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jenny-Thuylo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jenny-Thuylo/Thuylo.git&quot;,
+    &quot;accountId&quot;: &quot;54511fde-a82d-4ff0-8a66-a24eff10e112&quot;
+  },
+  &quot;editorReviewEnabled&quot;: false
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/global/Lesson7/ArraylistL1.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2t56LtVrU0JeGJfBh2hCHOkWDUb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArraylistL1.executor": "Run",
+    "Application.ArraylistL2.executor": "Run",
+    "Application.BMICalculator.executor": "Run",
+    "Application.Calculator.executor": "Run",
+    "Application.ChallengeExtension.executor": "Run",
+    "Application.ChallengeExtension2.executor": "Run",
+    "Application.CounterProgram.executor": "Run",
+    "Application.FizzBuzzVariation.executor": "Run",
+    "Application.Forloop.executor": "Run",
+    "Application.GradeCalculation.executor": "Run",
+    "Application.GuessTheNumberGame.executor": "Run",
+    "Application.LeapYearChecker.executor": "Run",
+    "Application.LoginPage.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NavigateTest.executor": "Run",
+    "Application.Operator.executor": "Run",
+    "Application.Output.executor": "Run",
+    "Application.Temperature.executor": "Run",
+    "Application.TestForloop.executor": "Run",
+    "Application.com.cmcglobal.day1.lession2.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AddRemoveElements.verifyAddRemoveElements.executor": "Run",
+    "JUnit.AlertTest.executor": "Run",
+    "JUnit.AlertTest.verifyClickForJSAlert.executor": "Run",
+    "JUnit.AlertTest.verifyJavaScripAlert.executor": "Run",
+    "JUnit.CartTest.executor": "Run",
+    "JUnit.DisappearingElements.executor": "Run",
+    "JUnit.DisappearingElements.verifyClickHome.executor": "Run",
+    "JUnit.DisappearingElements.verifyDropdown.executor": "Run",
+    "JUnit.DisappearingElements.verifyUI.executor": "Run",
+    "JUnit.Dropdown.executor": "Run",
+    "JUnit.Dropdown.verifyChooseDropdown.executor": "Run",
+    "JUnit.Dropdown.verifyDropdown.executor": "Run",
+    "JUnit.DynamicControls.dynamicControlClick.executor": "Run",
+    "JUnit.DynamicControls.executor": "Run",
+    "JUnit.DynamicControls.verifyCheckbox.executor": "Run",
+    "JUnit.DynamicControls.verifyCheckbox1.executor": "Run",
+    "JUnit.DynamicLoading.dynamicControlClick.executor": "Run",
+    "JUnit.DynamicLoading.executor": "Run",
+    "JUnit.DynamicLoading.linkText1.executor": "Run",
+    "JUnit.DynamicLoading.linkText2.executor": "Run",
+    "JUnit.DynamicLoading.verifyText.executor": "Run",
+    "JUnit.InventoryTest.executor": "Run",
+    "JUnit.LoginSuccessTest.executor": "Run",
+    "JUnit.MessageErrorCart.executor": "Run",
+    "JUnit.NavigateTest.executor": "Run",
+    "JUnit.PasswordIncorrect.PasswordIncorrect.executor": "Run",
+    "JUnit.PasswordIncorrect.executor": "Run",
+    "JUnit.PasswordIncorrect.verifyPasswordIncorrect.executor": "Run",
+    "JUnit.SortTest.executor": "Run",
+    "JUnit.SortTest.verifySorting.executor": "Run",
+    "JUnit.TitleTest.executor": "Run",
+    "JUnit.passwordIncorrect.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.LoginPage.OpenWeb.executor": "Run",
+    "TestNG.LoginPage.executor": "Run",
+    "TestNG.TestTimeWait.executor": "Run",
+    "TestNG.TestTimeWait.explicitWait.executor": "Run",
+    "TestNG.TestTimeWait.implicitWait (1).executor": "Run",
+    "TestNG.TestTimeWait.implicitWait.executor": "Run",
+    "TestNG.TestTimeWait1.implicitWait.executor": "Run",
+    "TestNG.login.executor": "Run",
+    "git-widget-placeholder": "#1 on ltthuy",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/autotest/Thuylo",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.AddRemoveElements.verifyUI">
+    <configuration name="AddRemoveElements.verifyAddRemoveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AddRemoveElements" />
+      <option name="METHOD_NAME" value="verifyAddRemoveElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddRemoveElements.verifyUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AddRemoveElements" />
+      <option name="METHOD_NAME" value="verifyUI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AlertTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTest.verifyClickForJSAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AlertTest" />
+      <option name="METHOD_NAME" value="verifyClickForJSAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTest.verifyJavaScripAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AlertTest" />
+      <option name="METHOD_NAME" value="verifyJavaScripAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AddRemoveElements.verifyUI" />
+        <item itemvalue="JUnit.AddRemoveElements.verifyAddRemoveElements" />
+        <item itemvalue="JUnit.AlertTest" />
+        <item itemvalue="JUnit.AlertTest.verifyClickForJSAlert" />
+        <item itemvalue="JUnit.AlertTest.verifyJavaScripAlert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfdb91c0-5cd0-4790-9b2b-09d6d943c8fd" name="Changes" comment="" />
+      <created>1739629536708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739629536708</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add code">
+      <option name="closed" value="true" />
+      <created>1739800918461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739800918461</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add code">
+      <option name="closed" value="true" />
+      <created>1739802486768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739802486768</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete code">
+      <option name="closed" value="true" />
+      <created>1739805193907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739805193907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add code">
+      <option name="closed" value="true" />
+      <created>1740237448621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740237448621</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add code">
+      <option name="closed" value="true" />
+      <created>1740238496967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740238496967</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add code">
+      <option name="closed" value="true" />
+      <created>1740240880736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740240880736</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add code">
+      <option name="closed" value="true" />
+      <created>1741020003416</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741020003416</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add code">
+      <option name="closed" value="true" />
+      <created>1742225759383</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742225759383</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add code">
+      <option name="closed" value="true" />
+      <created>1742225858195</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742225858195</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add code">
+      <option name="closed" value="true" />
+      <created>1742825336366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742825336366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add code">
+      <option name="closed" value="true" />
+      <created>1744040975076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1744040975076</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add code">
+      <option name="closed" value="true" />
+      <created>1744555079200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744555079200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete code" />
+    <MESSAGE value="add code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/global/lesson4/Library.java</url>
+          <line>17</line>
+          <properties class="com.global.lesson4.Library" method="removeABook">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/LoginPage.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="args" language="JAVA" />
+        <watch expression="args" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,16 +1,17 @@
+package Lesson9;
+
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
-//Verify that all products are displayed
-public class InventoryTest {
+
+//    Verify that products are sorted by default (name A-Z)
+public class SortTest {
     @Test
-    public void verifyAllProductsDisplayed() {
+    public void verifySorting() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com");
 
@@ -22,8 +23,11 @@ public class InventoryTest {
         passwordField.sendKeys("secret_sauce");
         loginButton.click();
 
-        List<WebElement> products = driver.findElements(By.className("inventory_list"));
-        assertTrue(products.size() > 0);
-
+        WebElement sortDropdown = driver.findElement(By.className("product_sort_container"));
+        sortDropdown.click();
+        WebElement option = driver.findElement(By.xpath("//option[text()='Name (Z to A)']"));
+        option.click();
+        assertTrue(driver.findElement(By.cssSelector(".inventory_item:nth-child(1)")).isDisplayed());
+//        driver.quit();
     }
 }

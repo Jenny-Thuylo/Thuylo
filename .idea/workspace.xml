@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdb91c0-5cd0-4790-9b2b-09d6d943c8fd" name="Changes" comment="add code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/TestTimeWait1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/AddRemoveElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/AlertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/DisappearingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/DynamicControls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/DynamicLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson10/Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/global/SeleniumMaven/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/InventoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginSuccessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/LoginSuccessTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MessageErrorCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/MessageErrorCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NavigateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/NavigateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PasswordIncorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/PasswordIncorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestTimeWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/TestTimeWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson9/TitleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +54,7 @@
   &quot;editorReviewEnabled&quot;: false
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/global/Lesson7/ArraylistL1.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -73,13 +88,34 @@
     "Application.TestForloop.executor": "Run",
     "Application.com.cmcglobal.day1.lession2.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AddRemoveElements.verifyAddRemoveElements.executor": "Run",
+    "JUnit.AlertTest.executor": "Run",
+    "JUnit.AlertTest.verifyClickForJSAlert.executor": "Run",
+    "JUnit.AlertTest.verifyJavaScripAlert.executor": "Run",
     "JUnit.CartTest.executor": "Run",
+    "JUnit.DisappearingElements.executor": "Run",
+    "JUnit.DisappearingElements.verifyClickHome.executor": "Run",
+    "JUnit.DisappearingElements.verifyDropdown.executor": "Run",
+    "JUnit.DisappearingElements.verifyUI.executor": "Run",
+    "JUnit.Dropdown.executor": "Run",
+    "JUnit.Dropdown.verifyChooseDropdown.executor": "Run",
+    "JUnit.Dropdown.verifyDropdown.executor": "Run",
+    "JUnit.DynamicControls.dynamicControlClick.executor": "Run",
+    "JUnit.DynamicControls.executor": "Run",
+    "JUnit.DynamicControls.verifyCheckbox.executor": "Run",
+    "JUnit.DynamicControls.verifyCheckbox1.executor": "Run",
+    "JUnit.DynamicLoading.dynamicControlClick.executor": "Run",
+    "JUnit.DynamicLoading.executor": "Run",
+    "JUnit.DynamicLoading.linkText1.executor": "Run",
+    "JUnit.DynamicLoading.linkText2.executor": "Run",
+    "JUnit.DynamicLoading.verifyText.executor": "Run",
     "JUnit.InventoryTest.executor": "Run",
     "JUnit.LoginSuccessTest.executor": "Run",
     "JUnit.MessageErrorCart.executor": "Run",
     "JUnit.NavigateTest.executor": "Run",
     "JUnit.PasswordIncorrect.PasswordIncorrect.executor": "Run",
     "JUnit.PasswordIncorrect.executor": "Run",
+    "JUnit.PasswordIncorrect.verifyPasswordIncorrect.executor": "Run",
     "JUnit.SortTest.executor": "Run",
     "JUnit.SortTest.verifySorting.executor": "Run",
     "JUnit.TitleTest.executor": "Run",
@@ -89,11 +125,14 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.LoginPage.OpenWeb.executor": "Run",
     "TestNG.LoginPage.executor": "Run",
     "TestNG.TestTimeWait.executor": "Run",
     "TestNG.TestTimeWait.explicitWait.executor": "Run",
+    "TestNG.TestTimeWait.implicitWait (1).executor": "Run",
     "TestNG.TestTimeWait.implicitWait.executor": "Run",
     "TestNG.TestTimeWait1.implicitWait.executor": "Run",
+    "TestNG.login.executor": "Run",
     "git-widget-placeholder": "#1 on ltthuy",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/autotest/Thuylo",
@@ -103,85 +142,93 @@
     "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestTimeWait.implicitWait">
-    <configuration name="LoginPage.OpenWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AddRemoveElements.verifyUI">
+    <configuration name="AddRemoveElements.verifyAddRemoveElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.global.SeleniumMaven.*" />
+          <option name="PATTERN" value="Lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.global.SeleniumMaven" />
-      <option name="MAIN_CLASS_NAME" value="com.global.SeleniumMaven.LoginPage" />
-      <option name="METHOD_NAME" value="OpenWeb" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AddRemoveElements" />
+      <option name="METHOD_NAME" value="verifyAddRemoveElements" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTimeWait" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTimeWait" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTimeWait1.implicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddRemoveElements.verifyUI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.global.SeleniumMaven.*" />
+          <option name="PATTERN" value="Lesson10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.global.SeleniumMaven" />
-      <option name="MAIN_CLASS_NAME" value="com.global.SeleniumMaven.TestTimeWait1" />
-      <option name="METHOD_NAME" value="implicitWait" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AddRemoveElements" />
+      <option name="METHOD_NAME" value="verifyUI" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTimeWait.explicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTimeWait" />
-      <option name="METHOD_NAME" value="explicitWait" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AlertTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTimeWait.implicitWait" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTest.verifyClickForJSAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemoTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestTimeWait" />
-      <option name="METHOD_NAME" value="implicitWait" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AlertTest" />
+      <option name="METHOD_NAME" value="verifyClickForJSAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTest.verifyJavaScripAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson10" />
+      <option name="MAIN_CLASS_NAME" value="Lesson10.AlertTest" />
+      <option name="METHOD_NAME" value="verifyJavaScripAlert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestTimeWait.implicitWait" />
-        <item itemvalue="TestNG.LoginPage.OpenWeb" />
-        <item itemvalue="TestNG.TestTimeWait1.implicitWait" />
-        <item itemvalue="TestNG.TestTimeWait.explicitWait" />
-        <item itemvalue="TestNG.TestTimeWait" />
+        <item itemvalue="JUnit.AddRemoveElements.verifyUI" />
+        <item itemvalue="JUnit.AddRemoveElements.verifyAddRemoveElements" />
+        <item itemvalue="JUnit.AlertTest" />
+        <item itemvalue="JUnit.AlertTest.verifyClickForJSAlert" />
+        <item itemvalue="JUnit.AlertTest.verifyJavaScripAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744040975076</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add code">
+      <option name="closed" value="true" />
+      <created>1744555079200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744555079200</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

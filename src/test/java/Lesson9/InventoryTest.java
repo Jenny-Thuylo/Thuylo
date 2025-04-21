@@ -1,14 +1,18 @@
+package Lesson9;
+
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
-public class MessageErrorCart {
+//Verify that all products are displayed
+public class InventoryTest {
     @Test
-    public void verifyErrorEmptyCart() {
+    public void verifyAllProductsDisplayed() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com");
 
@@ -20,15 +24,8 @@ public class MessageErrorCart {
         passwordField.sendKeys("secret_sauce");
         loginButton.click();
 
-        WebElement cartButton = driver.findElement(By.className("shopping_cart_link"));
-        cartButton.click();
+        List<WebElement> products = driver.findElements(By.className("inventory_list"));
+        assertEquals(true, !products.isEmpty());
 
-        WebElement checkoutButton = driver.findElement(By.id("checkout"));
-        checkoutButton.click();
-
-        WebElement errorMessage = driver.findElement(By.cssSelector(".error-message-container"));
-        assertTrue(errorMessage.isDisplayed());
-
-        driver.quit();
     }
 }

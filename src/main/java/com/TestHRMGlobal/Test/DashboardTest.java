@@ -10,7 +10,7 @@ public class DashboardTest extends BaseTestAfterLogin {
 
     @Test
     @DisplayName("TC1- Dashboard- displayDashboard")
-    public void displayDashboard() throws InterruptedException {
+    public void displayDashboard() throws InterruptedException{
         Dashboard db = new Dashboard(getDriver());
         if (db.isDashboardDisplayed()){
             System.out.println("Dashboard is displayed");
@@ -20,13 +20,13 @@ public class DashboardTest extends BaseTestAfterLogin {
     }
     @Test
     @DisplayName("TC2- Dashboard- verifyDashboard")
-    public void verifyDashboard() throws InterruptedException {
+    public void verifyDashboard() throws InterruptedException{
         Dashboard db = new Dashboard(getDriver());
         db.getTextDashboard();
     }
     @Test
     @DisplayName("TC3- Dashboard- verifyMyActions")
-    public void verifyMyActions() throws InterruptedException {
+    public void verifyMyActions() throws InterruptedException{
         Dashboard db = new Dashboard(getDriver());
         if (db.isMyActionDisplayed()){
             System.out.println("My Actions is displayed");
@@ -37,7 +37,7 @@ public class DashboardTest extends BaseTestAfterLogin {
 
     @Test
     @DisplayName("TC4- Dashboard- verifyTimeAtWork")
-    public void verifyTimeAtWork() throws InterruptedException {
+    public void verifyTimeAtWork() throws InterruptedException{
         Dashboard db = new Dashboard(getDriver());
         if (db.isTimeAtWorkDisplayed()){
             System.out.println("Time At Work is displayed");
@@ -48,7 +48,7 @@ public class DashboardTest extends BaseTestAfterLogin {
 
     @Test
     @DisplayName("TC5- Dashboard- verifyQuickLaunch")
-    public void verifyQuickLaunch()  {
+    public void verifyQuickLaunch(){
         Dashboard db = new Dashboard(getDriver());
         if (db.isQuickLaunchDisplayed()){
             System.out.println("Quick Launch is displayed");

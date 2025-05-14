@@ -2,7 +2,6 @@ package com.TestHRMGlobal.Test;
 
 import com.TestHRMGlobal.Base.BaseTestAfterLogin;
 import com.TestHRMGlobal.Page.AddUserPage;
-import com.TestHRMGlobal.Page.AdminPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -23,6 +22,7 @@ public class AddUserPageTest extends BaseTestAfterLogin {
             addUserPage.selectStatus("Enabled");
             addUserPage.enterPassword("Password@123");
             addUserPage.confirmPassword("Password@123");
+            Thread.sleep(5000);
             addUserPage.clickSave();
 
             System.out.println("Form Add User đã được gửi.");

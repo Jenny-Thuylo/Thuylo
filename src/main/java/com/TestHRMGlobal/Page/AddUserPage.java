@@ -9,13 +9,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class AddUserPage extends BasePage {
     @FindBy(xpath = "//span[text()='Admin']")
-    private WebElement adminTab;
+    WebElement adminTab;
 
     @FindBy(xpath = "//button[normalize-space()='Add']")
     WebElement addButton;
-
-    @FindBy(xpath = "//h6[text()='User Management']")
-    WebElement adminHeader;
 
 
     @FindBy(xpath = "//h6[text()='Add User']")
@@ -75,7 +72,7 @@ public class AddUserPage extends BasePage {
         employeeNameInput.sendKeys(empName);
 
         // Choose the first suggestion after load autocomplete
-        WebElement suggestion = driver.findElement(By.xpath("//div[@role='listbox']//span[text()='" + empName + "']"));
+        WebElement suggestion = driver.findElement(By.xpath("//div[contains(@class,'oxd-autocomplete-text-input')]//input"));
         suggestion.click();
     }
 
@@ -85,7 +82,6 @@ public class AddUserPage extends BasePage {
 
     public void enterPassword(String pwd) {
         passwordInput.sendKeys(pwd);
-        confirmPasswordInput.sendKeys(pwd);
     }
 
     public void confirmPassword(String pwd) {
